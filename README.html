@@ -442,17 +442,18 @@ html,body{        margin: auto;
 <p class="topic-title">Daftar Isi</p>
 <ul class="simple">
 <li><a class="reference internal" href="#sumber-belajar-website" id="id2">Sumber Belajar Website</a></li>
-<li><a class="reference internal" href="#id1" id="id3">Jekyll</a><ul>
+<li><a class="reference internal" href="#jekyll" id="id3">Jekyll</a><ul>
 <li><a class="reference internal" href="#install-jekyll" id="id4">Install Jekyll</a></li>
+<li><a class="reference internal" href="#tutorial" id="id5">Tutorial</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#github-pages" id="id5">Github Pages</a><ul>
-<li><a class="reference internal" href="#mengubah-judul-web-di-github-pages" id="id6">Mengubah Judul Web di Github Pages</a></li>
+<li><a class="reference internal" href="#github-pages" id="id6">Github Pages</a><ul>
+<li><a class="reference internal" href="#mengubah-judul-web-di-github-pages" id="id7">Mengubah Judul Web di Github Pages</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#local-server" id="id7">Local Server</a></li>
-<li><a class="reference internal" href="#konversi-rst-ke-html" id="id8">Konversi rST ke HTML</a></li>
-<li><a class="reference internal" href="#online-testing" id="id9">Online Testing</a></li>
+<li><a class="reference internal" href="#local-server" id="id8">Local Server</a></li>
+<li><a class="reference internal" href="#konversi-rst-ke-html" id="id9">Konversi rST ke HTML</a></li>
+<li><a class="reference internal" href="#online-testing" id="id10">Online Testing</a></li>
 </ul>
 </div>
 <div class="section" id="sumber-belajar-website">
@@ -495,7 +496,7 @@ cloud</a></li>
 <li><a class="reference external" href="https://computableverse.com/blog/create-website-using-pandoc-make-file">Convert any folder into a website using Pandoc and a Makefile</a></li>
 <li><a class="reference external" href="https://themattchan.com/blog/2017-02-28-make-site-generator.html">Make: the ultimate static site generator</a></li>
 <li><a class="reference external" href="https://brianbuccola.com/maintaining-an-academic-website-part-1-editing-the-site/">Maintaining an academic website, part 1: Editing the site</a></li>
-<li><a class="reference external" href="https://www.norwegiancreations.com/2018/07/makefiles-part-2-makefiles-can-make-webpages/">Makefiles: Part 2 — Makefiles Can Make Webpages?</a></li>
+<li><a class="reference external" href="https://www.norwegiancreations.com/2018/07/makefiles-part-2-makefiles-can-make-webpages/">Makefiles: Part 2 â€” Makefiles Can Make Webpages?</a></li>
 </ul>
 <p><strong>Templating Language</strong></p>
 <ul class="simple">
@@ -503,7 +504,7 @@ cloud</a></li>
 <li><a class="reference external" href="https://jinja.palletsprojects.com/en/2.10.x/">Jinja</a> + Flask (Python)</li>
 </ul>
 </div>
-<div class="section" id="id1">
+<div class="section" id="jekyll">
 <h1><a class="toc-backref" href="#id3">Jekyll</a></h1>
 <div class="section" id="install-jekyll">
 <h2><a class="toc-backref" href="#id4">Install Jekyll</a></h2>
@@ -526,11 +527,17 @@ cloud</a></li>
 <li><a class="reference external" href="https://jekyllrb.com/docs/installation/windows/">Jekyll on Windows</a></li>
 </ul>
 </div>
+<div class="section" id="tutorial">
+<h2><a class="toc-backref" href="#id5">Tutorial</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://www.kiltandcode.com/2020/04/30/how-to-create-a-blog-using-jekyll-and-github-pages-on-windows/">How to create a blog using Jekyll and Github Pages on Windows</a></li>
+</ul>
+</div>
 </div>
 <div class="section" id="github-pages">
-<h1><a class="toc-backref" href="#id5">Github Pages</a></h1>
+<h1><a class="toc-backref" href="#id6">Github Pages</a></h1>
 <div class="section" id="mengubah-judul-web-di-github-pages">
-<h2><a class="toc-backref" href="#id6">Mengubah Judul Web di Github Pages</a></h2>
+<h2><a class="toc-backref" href="#id7">Mengubah Judul Web di Github Pages</a></h2>
 <p>Kumpulan <em>Markdown Files</em> dapat disajikan menjadi sebuah website di Github. Index filenya bernama README.md. Dengan menggunakan file tersebut, secara otomatis akan dibuatkan halaman index yang mengarah ke README.md. Namun, judul website-nya secara otomatis diambil dari nama <em>github repository</em> website tersebut. Contohnya adalah sebagai berikut:</p>
 <img alt="images/tampilanAwalGithubPages.png" src="images/tampilanAwalGithubPages.png" />
 <p>Judul <em>default</em> tersebut dapat diubah dengan cara menyertakan file _config.yml pada repository website tersebut. Contoh file _config.yml adalah sebagai berikut:</p>
@@ -544,7 +551,7 @@ cloud</a></li>
 </div>
 </div>
 <div class="section" id="local-server">
-<h1><a class="toc-backref" href="#id7">Local Server</a></h1>
+<h1><a class="toc-backref" href="#id8">Local Server</a></h1>
 <p>Saya memiliki sebuah folder yang berisi file html yang digenerate oleh Sphinx. Di komputer lokal, website tersebut dapat diakses dengan membuka index.html. Permasalahannya adalah bagaimanakah caranya agar website lokal tersebut dapat diakses oleh perangkat lain (komputer atau smartphone) dalam jaringan internet yang sama. Solusinya adalah dengan menyajikan file html tersebut dengan web server. Python memiliki web server sederhana yang bernama <a class="reference external" href="https://docs.python.org/3/library/http.server.html">HTTP Servers</a>.</p>
 <p>Misalnya, website lokal berada di komputer dengan IP Address: 192.168.1.1, maka web server dapat dijalankan di folder yang berisi html (untuk Sphinx: build/html) dengan cara mengetikkan perintah berikut di terminal:</p>
 <pre class="literal-block">
@@ -558,7 +565,7 @@ https://192.168.1.1:8000
 terminal akan memberikan informasi pengaksesannya.</p>
 </div>
 <div class="section" id="konversi-rst-ke-html">
-<h1><a class="toc-backref" href="#id8">Konversi rST ke HTML</a></h1>
+<h1><a class="toc-backref" href="#id9">Konversi rST ke HTML</a></h1>
 <p>Contoh file rst:</p>
 <pre class="literal-block">
 ============================
@@ -587,7 +594,7 @@ os.system('cmd /k rst2html --stylesheet=docutils_basic.css thinkNotes.rst ThinkN
 </pre>
 </div>
 <div class="section" id="online-testing">
-<h1><a class="toc-backref" href="#id9">Online Testing</a></h1>
+<h1><a class="toc-backref" href="#id10">Online Testing</a></h1>
 <ul class="simple">
 <li>Latihan HTML, CSS, dan JS: <a class="reference external" href="https://codepen.io/pen/">codepen.io</a></li>
 </ul>

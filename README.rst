@@ -52,31 +52,6 @@ Referensi untuk belajar membuat website:
 -  `Liquid`_ + Jekyll (Ruby)
 -  `Jinja`_ + Flask (Python)
 
-.. _Firefox - Web Development: https://developer.mozilla.org/en-US/docs/Learn
-.. _W3School: https://www.w3schools.com/
-.. _Web Programming UNPAS: https://www.youtube.com/watch?v=NNW7Tg8CgAQ&t=549s
-.. _Tizag: http://www.tizag.com/
-.. _Github Page: https://nicolas-van.github.io/easy-markdown-to-github-pages/
-.. _Jekyll: https://jekyllrb.com/
-.. _Hugo: https://gohugo.io/
-.. _Pelican: https://blog.getpelican.com/
-.. _Bootstrap: https://getbootstrap.com/
-.. _Jquery: https://jquery.com/download/
-.. _Materialize: https://materializecss.com/
-.. _Contoh website menggunakan Flask (Didesain oleh Yohan): https://fsidik.github.io/
-.. _How to build a web application using Flask and deploy it to the cloud: https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/
-.. _Web programming with Python and JavaScript: https://www.youtube.com/watch?v=j5wysXqaIV8&list=PLhQjrBD2T382hIW-IsOVuXP1uMzEvmcE5&index=4
-.. _Build a simple, static, markdown-powered blog with flask: https://www.jamesharding.ca/posts/simple-static-markdown-blog-in-flask/
-.. _Static websites with frozen flask: http://john-b-yang.github.io/flask-website/
-.. _Adding css styling to your website: https://pythonhow.com/add-css-to-flask-website/
-.. _Building a Website using Pandoc, Markdown, and Static HTML: http://wstyler.ucsd.edu/posts/pandoc_website.html
-.. _Turn your book into a website and an ePub using Pandoc: https://opensource.com/article/18/10/book-to-website-epub-using-pandoc
-.. _Convert any folder into a website using Pandoc and a Makefile: https://computableverse.com/blog/create-website-using-pandoc-make-file
-.. _`Make: the ultimate static site generator`: https://themattchan.com/blog/2017-02-28-make-site-generator.html
-.. _`Maintaining an academic website, part 1: Editing the site`: https://brianbuccola.com/maintaining-an-academic-website-part-1-editing-the-site/
-.. _`Makefiles: Part 2 — Makefiles Can Make Webpages?`: https://www.norwegiancreations.com/2018/07/makefiles-part-2-makefiles-can-make-webpages/
-.. _Liquid: https://shopify.github.io/liquid/
-.. _Jinja: https://jinja.palletsprojects.com/en/2.10.x/
 
 
 Jekyll
@@ -93,10 +68,16 @@ Langkah-langkah untuk menginstall Jekyll:
      * Install Jekyll dengan *command* berikut: **gem install jekyll bundler**.
      * Cek apakah jekyll sudah terinstall di komputer anda dengan *command* berikut: **jekyll -v**.
 
-
 **Referensi**
 
 - `Jekyll on Windows <https://jekyllrb.com/docs/installation/windows/>`_
+
+Tutorial     
+***************************************************************************************
+
+- `How to create a blog using Jekyll and Github Pages on Windows`_
+
+
 
 
 Github Pages
@@ -187,3 +168,29 @@ Online Testing
 
 
 .. _`codepen.io`: https://codepen.io/pen/
+.. _Firefox - Web Development: https://developer.mozilla.org/en-US/docs/Learn
+.. _W3School: https://www.w3schools.com/
+.. _Web Programming UNPAS: https://www.youtube.com/watch?v=NNW7Tg8CgAQ&t=549s
+.. _Tizag: http://www.tizag.com/
+.. _Github Page: https://nicolas-van.github.io/easy-markdown-to-github-pages/
+.. _Jekyll: https://jekyllrb.com/
+.. _Hugo: https://gohugo.io/
+.. _Pelican: https://blog.getpelican.com/
+.. _Bootstrap: https://getbootstrap.com/
+.. _Jquery: https://jquery.com/download/
+.. _Materialize: https://materializecss.com/
+.. _Contoh website menggunakan Flask (Didesain oleh Yohan): https://fsidik.github.io/
+.. _How to build a web application using Flask and deploy it to the cloud: https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/
+.. _Web programming with Python and JavaScript: https://www.youtube.com/watch?v=j5wysXqaIV8&list=PLhQjrBD2T382hIW-IsOVuXP1uMzEvmcE5&index=4
+.. _Build a simple, static, markdown-powered blog with flask: https://www.jamesharding.ca/posts/simple-static-markdown-blog-in-flask/
+.. _Static websites with frozen flask: http://john-b-yang.github.io/flask-website/
+.. _Adding css styling to your website: https://pythonhow.com/add-css-to-flask-website/
+.. _Building a Website using Pandoc, Markdown, and Static HTML: http://wstyler.ucsd.edu/posts/pandoc_website.html
+.. _Turn your book into a website and an ePub using Pandoc: https://opensource.com/article/18/10/book-to-website-epub-using-pandoc
+.. _Convert any folder into a website using Pandoc and a Makefile: https://computableverse.com/blog/create-website-using-pandoc-make-file
+.. _`Make: the ultimate static site generator`: https://themattchan.com/blog/2017-02-28-make-site-generator.html
+.. _`Maintaining an academic website, part 1: Editing the site`: https://brianbuccola.com/maintaining-an-academic-website-part-1-editing-the-site/
+.. _`Makefiles: Part 2 — Makefiles Can Make Webpages?`: https://www.norwegiancreations.com/2018/07/makefiles-part-2-makefiles-can-make-webpages/
+.. _Liquid: https://shopify.github.io/liquid/
+.. _Jinja: https://jinja.palletsprojects.com/en/2.10.x/
+.. _`How to create a blog using Jekyll and Github Pages on Windows`: https://www.kiltandcode.com/2020/04/30/how-to-create-a-blog-using-jekyll-and-github-pages-on-windows/
