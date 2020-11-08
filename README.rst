@@ -140,9 +140,9 @@ Selanjutnya, website tersebut dapat diakses di perangkat lain dengan menggunakan
 
         https://192.168.1.1:8000
 
-Bila sebuah perangkat mengakses website ini, maka web server yang dijalankan di terminal akan memberikan informasi pengaksesannya, misalnya:
+Bila sebuah perangkat mengakses website ini, maka web server yang dijalankan di
+terminal akan memberikan informasi pengaksesannya.
 
-.. image:: images/webserver.png
 
 
 .. _HTTP Servers: https://docs.python.org/3/library/http.server.html
@@ -180,3 +180,10 @@ Python script untuk compile:
 
         os.system('cmd /k rst2html --stylesheet=docutils_basic.css thinkNotes.rst ThinkNotes.html')
 
+Online Testing
+---------------------------------------------------------------------------------
+
+- Latihan HTML, CSS, dan JS: `codepen.io`_
+
+
+.. _`codepen.io`: https://codepen.io/pen/
