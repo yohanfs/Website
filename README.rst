@@ -1,6 +1,8 @@
 Website
 =======================================================================================
 
+:Penulis: Yohan Sidik
+
 .. contents:: Daftar Isi
 
 Sumber Belajar Website
@@ -54,6 +56,7 @@ Referensi untuk belajar membuat website:
 
 
 
+
 Jekyll
 ---------------------------------------------------------------------------------------
 
@@ -76,9 +79,11 @@ Tutorial
 ***************************************************************************************
 
 - `How to create a blog using Jekyll and Github Pages on Windows`_
-
-
-
+- `blog post exerpts`_
+- `responsive google calendar`_
+- `centering images with Jekyll and Markdown`_
+- `jekyll instant search in 3 simple steps`_
+- `jekyll themes`_
 
 Github Pages
 ---------------------------------------------------------------------------------------
@@ -164,8 +169,19 @@ Python script untuk compile:
 Online Testing
 ---------------------------------------------------------------------------------
 
-- Latihan HTML, CSS, dan JS: `codepen.io`_
+- Codepen.io: `codepen.io`_
+- Tryit Editor: `tryit editor`_
 
+Content Management System
+---------------------------------------------------------------------------------------
+
+- `Tutorial netlifycms`_
+
+
+
+
+
+.. Referensi
 
 .. _`codepen.io`: https://codepen.io/pen/
 .. _Firefox - Web Development: https://developer.mozilla.org/en-US/docs/Learn
@@ -194,3 +210,11 @@ Online Testing
 .. _Liquid: https://shopify.github.io/liquid/
 .. _Jinja: https://jinja.palletsprojects.com/en/2.10.x/
 .. _`How to create a blog using Jekyll and Github Pages on Windows`: https://www.kiltandcode.com/2020/04/30/how-to-create-a-blog-using-jekyll-and-github-pages-on-windows/
+.. _`tryit editor`: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic
+.. _`blog post exerpts`: https://coderwall.com/p/eazb7w/easily-create-blog-post-excerpts-for-jekyll-and-github-pages
+.. _`responsive google calendar`: https://thomas.vanhoutte.be/miniblog/make-google-calendar-iframe-responsive/
+.. _`Tutorial netlifycms`: https://www.youtube.com/watch?v=Qb8rxouArIg&list=PLWjCJDeWfDdcU8zbZZrr6L1zpf_2Eqt_w
+.. _`centering images with Jekyll and Markdown`: https://thornelabs.net/posts/centering-images-with-jekyll-and-markdown.html
+.. _`jekyll instant search in 3 simple steps`: https://blog.webjeda.com/instant-jekyll-search/
+.. _`jekyll themes`: https://jekyll-themes.com/free/
+
