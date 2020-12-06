@@ -473,6 +473,7 @@ html,body{        margin: auto;
 <li><a class="reference external" href="https://www.w3schools.com/">W3School</a></li>
 <li><a class="reference external" href="https://www.youtube.com/watch?v=NNW7Tg8CgAQ&amp;t=549s">Web Programming UNPAS</a></li>
 <li><a class="reference external" href="http://www.tizag.com/">Tizag</a></li>
+<li><a class="reference external" href="https://www.freecodecamp.org/">Freecodecamp</a></li>
 </ul>
 <p><strong>Static Web Generator</strong></p>
 <ul class="simple">
@@ -551,11 +552,18 @@ cloud</a></li>
 <h1><a class="toc-backref" href="#id6">Github Pages</a></h1>
 <div class="section" id="mengubah-judul-web-di-github-pages">
 <h2><a class="toc-backref" href="#id7">Mengubah Judul Web di Github Pages</a></h2>
-<p>Kumpulan <em>Markdown Files</em> dapat disajikan menjadi sebuah website di Github. Index filenya bernama README.md. Dengan menggunakan file tersebut, secara otomatis akan dibuatkan halaman index yang mengarah ke README.md. Namun, judul website-nya secara otomatis diambil dari nama <em>github repository</em> website tersebut. Contohnya adalah sebagai berikut:</p>
+<p>Kumpulan <em>Markdown Files</em> dapat disajikan menjadi sebuah website di Github.
+Index filenya bernama README.md. Dengan menggunakan file tersebut, secara
+otomatis akan dibuatkan halaman index yang mengarah ke README.md. Namun, judul
+website-nya secara otomatis diambil dari nama <em>github repository</em> website
+tersebut. Contohnya adalah sebagai berikut:</p>
 <img alt="images/tampilanAwalGithubPages.png" src="images/tampilanAwalGithubPages.png" />
-<p>Judul <em>default</em> tersebut dapat diubah dengan cara menyertakan file _config.yml pada repository website tersebut. Contoh file _config.yml adalah sebagai berikut:</p>
+<p>Judul <em>default</em> tersebut dapat diubah dengan cara menyertakan file _config.yml
+pada repository website tersebut. Contoh file _config.yml adalah sebagai
+berikut:</p>
 <img alt="images/config.png" src="images/config.png" />
-<p>Setelah file tersebut disertakan dan file tersebut telah dipush ke repository website maka hasilnya adalah sebagai berikut:</p>
+<p>Setelah file tersebut disertakan dan file tersebut telah dipush ke repository
+website maka hasilnya adalah sebagai berikut:</p>
 <img alt="images/tampilanAkhirGithubPages.png" src="images/tampilanAkhirGithubPages.png" />
 <p><strong>Referensi</strong></p>
 <ul class="simple">
@@ -565,12 +573,20 @@ cloud</a></li>
 </div>
 <div class="section" id="local-server">
 <h1><a class="toc-backref" href="#id8">Local Server</a></h1>
-<p>Saya memiliki sebuah folder yang berisi file html yang digenerate oleh Sphinx. Di komputer lokal, website tersebut dapat diakses dengan membuka index.html. Permasalahannya adalah bagaimanakah caranya agar website lokal tersebut dapat diakses oleh perangkat lain (komputer atau smartphone) dalam jaringan internet yang sama. Solusinya adalah dengan menyajikan file html tersebut dengan web server. Python memiliki web server sederhana yang bernama <a class="reference external" href="https://docs.python.org/3/library/http.server.html">HTTP Servers</a>.</p>
-<p>Misalnya, website lokal berada di komputer dengan IP Address: 192.168.1.1, maka web server dapat dijalankan di folder yang berisi html (untuk Sphinx: build/html) dengan cara mengetikkan perintah berikut di terminal:</p>
+<p>Saya memiliki sebuah folder yang berisi file html yang digenerate oleh Sphinx.
+Di komputer lokal, website tersebut dapat diakses dengan membuka index.html.
+Permasalahannya adalah bagaimanakah caranya agar website lokal tersebut dapat
+diakses oleh perangkat lain (komputer atau smartphone) dalam jaringan internet
+yang sama. Solusinya adalah dengan menyajikan file html tersebut dengan web
+server. Python memiliki web server sederhana yang bernama <a class="reference external" href="https://docs.python.org/3/library/http.server.html">HTTP Servers</a>.</p>
+<p>Misalnya, website lokal berada di komputer dengan IP Address: 192.168.1.1, maka
+web server dapat dijalankan di folder yang berisi html (untuk Sphinx:
+build/html) dengan cara mengetikkan perintah berikut di terminal:</p>
 <pre class="literal-block">
 python -m http.server 8000 --bind 192.168.1.1
 </pre>
-<p>Selanjutnya, website tersebut dapat diakses di perangkat lain dengan menggunakan alamat di bawah ini:</p>
+<p>Selanjutnya, website tersebut dapat diakses di perangkat lain dengan menggunakan
+alamat di bawah ini:</p>
 <pre class="literal-block">
 https://192.168.1.1:8000
 </pre>

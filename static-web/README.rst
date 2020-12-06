@@ -16,6 +16,7 @@ Referensi untuk belajar membuat website:
 -  `W3School`_
 -  `Web Programming UNPAS`_
 -  `Tizag`_
+-  `Freecodecamp`_
 
 **Static Web Generator**
 
@@ -91,16 +92,23 @@ Github Pages
 Mengubah Judul Web di Github Pages
 ***************************************************************************************
 
-Kumpulan *Markdown Files* dapat disajikan menjadi sebuah website di Github. Index filenya bernama README.md. Dengan menggunakan file tersebut, secara otomatis akan dibuatkan halaman index yang mengarah ke README.md. Namun, judul website-nya secara otomatis diambil dari nama *github repository* website tersebut. Contohnya adalah sebagai berikut:
+Kumpulan *Markdown Files* dapat disajikan menjadi sebuah website di Github.
+Index filenya bernama README.md. Dengan menggunakan file tersebut, secara
+otomatis akan dibuatkan halaman index yang mengarah ke README.md. Namun, judul
+website-nya secara otomatis diambil dari nama *github repository* website
+tersebut. Contohnya adalah sebagai berikut:
 
 .. image:: images/tampilanAwalGithubPages.png
 
 
-Judul *default* tersebut dapat diubah dengan cara menyertakan file _config.yml pada repository website tersebut. Contoh file _config.yml adalah sebagai berikut:
+Judul *default* tersebut dapat diubah dengan cara menyertakan file _config.yml
+pada repository website tersebut. Contoh file _config.yml adalah sebagai
+berikut:
 
 .. image:: images/config.png
 
-Setelah file tersebut disertakan dan file tersebut telah dipush ke repository website maka hasilnya adalah sebagai berikut:
+Setelah file tersebut disertakan dan file tersebut telah dipush ke repository
+website maka hasilnya adalah sebagai berikut:
 
 .. image:: images/tampilanAkhirGithubPages.png
 
@@ -112,15 +120,23 @@ Setelah file tersebut disertakan dan file tersebut telah dipush ke repository we
 Local Server
 ---------------------------------------------------------------------------------------
 
-Saya memiliki sebuah folder yang berisi file html yang digenerate oleh Sphinx. Di komputer lokal, website tersebut dapat diakses dengan membuka index.html. Permasalahannya adalah bagaimanakah caranya agar website lokal tersebut dapat diakses oleh perangkat lain (komputer atau smartphone) dalam jaringan internet yang sama. Solusinya adalah dengan menyajikan file html tersebut dengan web server. Python memiliki web server sederhana yang bernama `HTTP Servers`_.
+Saya memiliki sebuah folder yang berisi file html yang digenerate oleh Sphinx.
+Di komputer lokal, website tersebut dapat diakses dengan membuka index.html.
+Permasalahannya adalah bagaimanakah caranya agar website lokal tersebut dapat
+diakses oleh perangkat lain (komputer atau smartphone) dalam jaringan internet
+yang sama. Solusinya adalah dengan menyajikan file html tersebut dengan web
+server. Python memiliki web server sederhana yang bernama `HTTP Servers`_.
 
-Misalnya, website lokal berada di komputer dengan IP Address: 192.168.1.1, maka web server dapat dijalankan di folder yang berisi html (untuk Sphinx: build/html) dengan cara mengetikkan perintah berikut di terminal:
+Misalnya, website lokal berada di komputer dengan IP Address: 192.168.1.1, maka
+web server dapat dijalankan di folder yang berisi html (untuk Sphinx:
+build/html) dengan cara mengetikkan perintah berikut di terminal:
 
 ::
 
         python -m http.server 8000 --bind 192.168.1.1
 
-Selanjutnya, website tersebut dapat diakses di perangkat lain dengan menggunakan alamat di bawah ini:
+Selanjutnya, website tersebut dapat diakses di perangkat lain dengan menggunakan
+alamat di bawah ini:
 
 ::
 
@@ -128,7 +144,6 @@ Selanjutnya, website tersebut dapat diakses di perangkat lain dengan menggunakan
 
 Bila sebuah perangkat mengakses website ini, maka web server yang dijalankan di
 terminal akan memberikan informasi pengaksesannya.
-
 
 
 .. _HTTP Servers: https://docs.python.org/3/library/http.server.html
@@ -217,4 +232,4 @@ Content Management System
 .. _`centering images with Jekyll and Markdown`: https://thornelabs.net/posts/centering-images-with-jekyll-and-markdown.html
 .. _`jekyll instant search in 3 simple steps`: https://blog.webjeda.com/instant-jekyll-search/
 .. _`jekyll themes`: https://jekyll-themes.com/free/
-
+.. _`Freecodecamp`: https://www.freecodecamp.org/
