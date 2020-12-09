@@ -49,6 +49,7 @@ Referensi untuk belajar membuat website:
 -  `Make: the ultimate static site generator`_
 -  `Maintaining an academic website, part 1: Editing the site`_
 -  `Makefiles: Part 2 — Makefiles Can Make Webpages?`_
+-  `easy pandoc templates`_
 
 **Templating Language**
 
@@ -233,3 +234,4 @@ Content Management System
 .. _`jekyll instant search in 3 simple steps`: https://blog.webjeda.com/instant-jekyll-search/
 .. _`jekyll themes`: https://jekyll-themes.com/free/
 .. _`Freecodecamp`: https://www.freecodecamp.org/
+.. _`easy pandoc templates`: https://github.com/ryangrose/easy-pandoc-templates
