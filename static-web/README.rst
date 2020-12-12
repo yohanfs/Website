@@ -31,6 +31,10 @@ Referensi untuk belajar membuat website:
 -  `Jquery`_
 -  `Materialize`_
 
+**Templates**
+
+- `HTML5 up`_
+
 **Flask**
 
 -  `Contoh website menggunakan Flask (Didesain oleh Yohan)`_
@@ -235,3 +239,4 @@ Content Management System
 .. _`jekyll themes`: https://jekyll-themes.com/free/
 .. _`Freecodecamp`: https://www.freecodecamp.org/
 .. _`easy pandoc templates`: https://github.com/ryangrose/easy-pandoc-templates
+.. _ `HTML5 up`: https://html5up.net/
