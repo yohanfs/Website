@@ -1,0 +1,36 @@
+* Databases
+  :PROPERTIES:
+  :CUSTOM_ID: databases
+  :END:
+
+*Daftar Isi*
+
+** Dasar MariaDB
+   :PROPERTIES:
+   :CUSTOM_ID: dasar-mariadb
+   :END:
+
+MariaDB adalah sistem database dan server database. Untuk mengakses
+database, diperlukan /client program/ misalnya php script atau mysql
+yang telah tersedia di MariaDB.
+
+*Enter MariaDB*
+
+#+BEGIN_EXAMPLE
+    $ mysql -u root -p -h localhost
+#+END_EXAMPLE
+
+*Referensi*
+
+- [[https://mariadb.com/kb/en/mariadb-basics/][MariaDB basics]]
+- [[https://mariadb.com/kb/en/show-databases/][Show databases]]
+
+** Baca database oleh php
+   :PROPERTIES:
+   :CUSTOM_ID: baca-database-oleh-php
+   :END:
+
+[[https://www.ionos.com/community/hosting/mysql/use-php-to-retrieve-information-from-a-mysqlmariadb-database/][Use
+phd to retrieve]]
+[[https://www.youtube.com/playlist?list=PL0eyrZgxdwhwBToawjm9faF1ixePexft-][Tutorial
+php di youtube]]

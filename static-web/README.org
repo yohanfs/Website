@@ -1,0 +1,176 @@
+#+startup: overview
+#+title: Website
+
+* Sumber Belajar Website
+
+Referensi untuk belajar membuat website:
+
+*Tutorial*
+
+- [[https://developer.mozilla.org/en-US/docs/Learn][Firefox - Web Development]] - /recommended for beginner/
+- [[https://www.w3schools.com/][W3School]]
+- [[https://www.youtube.com/watch?v=NNW7Tg8CgAQ&t=549s][Web Programming UNPAS]]
+- [[http://www.tizag.com/][Tizag]]
+- [[https://www.freecodecamp.org/][Freecodecamp]]
+
+*Static Web Generator*
+
+- [[https://nicolas-van.github.io/easy-markdown-to-github-pages/][Github Page]]
+- [[https://jekyllrb.com/][Jekyll]]
+- [[https://gohugo.io/][Hugo]]
+- [[https://blog.getpelican.com/][Pelican]]
+
+*Front-End Frameworks*
+
+- [[https://getbootstrap.com/][Bootstrap]]
+- [[https://jquery.com/download/][Jquery]]
+- [[https://materializecss.com/][Materialize]]
+
+
+*Flask*
+
+- [[https://fsidik.github.io/][Contoh website menggunakan Flask (Didesain oleh Yohan)]]
+- [[https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/][How to build a web application using Flask and deploy it to the cloud]]
+- [[https://www.youtube.com/watch?v=j5wysXqaIV8&list=PLhQjrBD2T382hIW-IsOVuXP1uMzEvmcE5&index=4][Web programming with Python and JavaScript]]
+- [[https://www.jamesharding.ca/posts/simple-static-markdown-blog-in-flask/][Build a simple, static, markdown-powered blog with flask]]
+- [[http://john-b-yang.github.io/flask-website/][Static websites with frozen flask]]
+- [[https://pythonhow.com/add-css-to-flask-website/][Adding css styling to your website]]
+
+*Website Menggunakan Pandoc*
+
+- [[http://wstyler.ucsd.edu/posts/pandoc_website.html][Building a Website using Pandoc, Markdown, and Static HTML]]
+- [[https://opensource.com/article/18/10/book-to-website-epub-using-pandoc][Turn your book into a website and an ePub using Pandoc]]
+- [[https://computableverse.com/blog/create-website-using-pandoc-make-file][Convert any folder into a website using Pandoc and a Makefile]]
+- [[https://themattchan.com/blog/2017-02-28-make-site-generator.html][Make: the ultimate static site generator]]
+- [[https://brianbuccola.com/maintaining-an-academic-website-part-1-editing-the-site/][Maintaining an academic website, part 1: Editing the site]]
+- [[https://www.norwegiancreations.com/2018/07/makefiles-part-2-makefiles-can-make-webpages/][Makefiles: Part 2 --- Makefiles Can Make Webpages?]]
+- [[https://github.com/ryangrose/easy-pandoc-templates][easy pandoc templates]]
+
+*Templating Language*
+
+- [[https://shopify.github.io/liquid/][Liquid]] + Jekyll (Ruby)
+- [[https://jinja.palletsprojects.com/en/2.10.x/][Jinja]] + Flask (Python)
+
+* Jekyll
+** Install Jekyll
+
+Langkah-langkah untuk menginstall Jekyll:
+
+- Download dan Install
+  [[https://rubyinstaller.org/downloads/][Ruby+Devkit]].
+- Run *ridk install* kemudian tekan tombol /Finish/. Selanjutnya akan
+  muncul menu yang berisi 3 pilihan. Pilih saja pilihan no 1 dan
+  kemudian tekan /Enter/.
+- - Buka /command prompt windows/: :: 
+
+    - Install Jekyll dengan /command/ berikut: *gem install jekyll
+      bundler*.
+    - Cek apakah jekyll sudah terinstall di komputer anda dengan
+      /command/ berikut: *jekyll -v*.
+
+*Referensi*
+
+- [[https://jekyllrb.com/docs/installation/windows/][Jekyll on Windows]]
+
+** Tutorial
+
+- [[https://www.kiltandcode.com/2020/04/30/how-to-create-a-blog-using-jekyll-and-github-pages-on-windows/][How to create a blog using Jekyll and Github Pages on Windows]]
+- [[https://coderwall.com/p/eazb7w/easily-create-blog-post-excerpts-for-jekyll-and-github-pages][blog post exerpts]]
+- [[https://thomas.vanhoutte.be/miniblog/make-google-calendar-iframe-responsive/][responsive google calendar]]
+- [[https://thornelabs.net/posts/centering-images-with-jekyll-and-markdown.html][centering images with Jekyll and Markdown]]
+- [[https://blog.webjeda.com/instant-jekyll-search/][jekyll instant search in 3 simple steps]]
+- [[https://jekyll-themes.com/free/][jekyll themes]]
+
+* Github Pages
+** Mengubah Judul Web di Github Pages
+
+Kumpulan /Markdown Files/ dapat disajikan menjadi sebuah website di
+Github. Index filenya bernama README.md. Dengan menggunakan file
+tersebut, secara otomatis akan dibuatkan halaman index yang mengarah ke
+README.md. Namun, judul website-nya secara otomatis diambil dari nama
+/github repository/ website tersebut. Contohnya adalah sebagai berikut:
+
+[[file:images/tampilanAwalGithubPages.png]]
+
+Judul /default/ tersebut dapat diubah dengan cara menyertakan file
+_config.yml pada repository website tersebut. Contoh file _config.yml
+adalah sebagai berikut:
+
+[[file:images/config.png]]
+
+Setelah file tersebut disertakan dan file tersebut telah dipush ke
+repository website maka hasilnya adalah sebagai berikut:
+
+[[file:images/tampilanAkhirGithubPages.png]]
+
+*Referensi*
+
+- [[https://talk.jekyllrb.com/t/how-to-change-the-site-title-gh-pages/1119/4][Change
+  the site title gh pages]]
+
+* Local Server
+
+Saya memiliki sebuah folder yang berisi file html yang digenerate oleh
+Sphinx. Di komputer lokal, website tersebut dapat diakses dengan membuka
+index.html. Permasalahannya adalah bagaimanakah caranya agar website
+lokal tersebut dapat diakses oleh perangkat lain (komputer atau
+smartphone) dalam jaringan internet yang sama. Solusinya adalah dengan
+menyajikan file html tersebut dengan web server. Python memiliki web
+server sederhana yang bernama
+[[https://docs.python.org/3/library/http.server.html][HTTP Servers]].
+
+Misalnya, website lokal berada di komputer dengan IP Address:
+192.168.1.1, maka web server dapat dijalankan di folder yang berisi html
+(untuk Sphinx: build/html) dengan cara mengetikkan perintah berikut di
+terminal:
+
+:    python -m http.server 8000 --bind 192.168.1.1
+
+Selanjutnya, website tersebut dapat diakses di perangkat lain dengan
+menggunakan alamat di bawah ini:
+
+:    https://192.168.1.1:8000
+
+Bila sebuah perangkat mengakses website ini, maka web server yang
+dijalankan di terminal akan memberikan informasi pengaksesannya.
+
+* Konversi rST ke HTML
+
+Contoh file rst:
+
+#+BEGIN_EXAMPLE
+    ============================
+    Contoh Web
+    ============================
+
+    :Author: Yohan Sidik
+
+    .. contents:: Daftar Isi
+
+    contoh1
+    ---------------------------
+
+    Ini adalah contoh 1
+
+    contoh2
+    ---------------------------
+
+    Ini adalah contoh 2
+#+END_EXAMPLE
+
+Python script untuk compile:
+
+#+BEGIN_EXAMPLE
+    import os
+
+    os.system('cmd /k rst2html --stylesheet=docutils_basic.css thinkNotes.rst ThinkNotes.html')
+#+END_EXAMPLE
+
+* Online Testing
+
+- Codepen.io: [[https://codepen.io/pen/][codepen.io]]
+- Tryit Editor: [[https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic][tryit editor]]
+
+* Content Management System
+
+- [[https://www.youtube.com/watch?v=Qb8rxouArIg&list=PLWjCJDeWfDdcU8zbZZrr6L1zpf_2Eqt_w][Tutorial netlifycms]]

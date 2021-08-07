@@ -1,0 +1,26 @@
+* Open Source Web
+  :PROPERTIES:
+  :CUSTOM_ID: open-source-web
+  :END:
+
+*Daftar Isi*
+
+** Mediawiki
+   :PROPERTIES:
+   :CUSTOM_ID: mediawiki
+   :END:
+
+Tutorial install Mediawiki di Raspberry Pi:
+
+- [[https://www.mediawiki.org/wiki/Manual:Running_MediaWiki_on_Debian_or_Ubuntu][Install
+  Mediawiki di Raspberry Pi]]
+- [[https://www.howtoforge.com/tutorial/how-to-install-mediawiki-on-ubuntu-1804/][Install
+  Mediawiki di Ubuntu 18.04 LTS]]
+
+** Wordpress
+   :PROPERTIES:
+   :CUSTOM_ID: wordpress
+   :END:
+
+- [[https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/][Developing
+  a wordpress theme from scratch]]
