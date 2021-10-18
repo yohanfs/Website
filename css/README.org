@@ -1,23 +1,14 @@
 #+STARTUP: overview
 #+TITLE: CSS
 
-* Referensi
-
-- [[https://www.w3schools.com/css/default.asp][w3schools.com]]
-- [[https://developer.mozilla.org/en-US/docs/Learn/CSS][Learn to style HTML using CSS]]
-- [[https://www.developerdrive.com/how-to-create-a-css-grid-step-by-step/][Set up the grid container and the grid items]]
-  
 * Mengapa Menggunakan CSS?
 
 CSS digunakan untuk mendefinisikan style dari web pages, termasuk
 design, dan layout untuk perangkat dan ukuran layar yang berbeda.
 
-* Cara Insert CSS
-** External CSS
+* Boiler Plate
 
-*contoh.html*
-
-#+BEGIN_EXAMPLE
+  #+begin_src
     <!DOCTYPE html>
     <html>
     <head>
@@ -28,147 +19,169 @@ design, dan layout untuk perangkat dan ukuran layar yang berbeda.
     <h1>This is a heading</h1>
     <p>This is a paragraph.</p>
 
-    </body>
-    </html> 
-#+END_EXAMPLE
-
-*mystyle.css*
-
-#+BEGIN_EXAMPLE
-    body {
-      background-color: lightblue;
-    }
-
-    h1 {
-      color: navy;
-      margin-left: 20px;
-    }
-#+END_EXAMPLE
-
-** Internal CSS
-
-#+BEGIN_EXAMPLE
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <style>
-    body {
-      background-color: linen;
-    }
-
-    h1 {
-      color: maroon;
-      margin-left: 40px;
-    }
-    </style>
-    </head>
-    <body>
-
-    <h1>This is a heading</h1>
-    <p>This is a paragraph.</p>
+    <script src="myscripts.js"></script>
 
     </body>
     </html> 
-#+END_EXAMPLE
-
-** Inline CSS
-
-#+BEGIN_EXAMPLE
-    <!DOCTYPE html>
-    <html>
-    <body>
-
-    <h1 style="color:blue;text-align:center;">This is a heading</h1>
-    <p style="color:red;">This is a paragraph.</p>
-
-    </body>
-    </html>
-#+END_EXAMPLE
-
+  #+end_src
+  
 * CSS Syntax
   
 [[file:images/css_syntax.png]]
 
-* CSS Element Selector
+** CSS Element Selector
 
-#+BEGIN_EXAMPLE
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <style>
-    body {
-      background-color: lightblue;
-    }
+ #+BEGIN_EXAMPLE
+     <!DOCTYPE html>
+     <html>
+     <head>
+     <style>
+     body {
+       background-color: lightblue;
+     }
 
-    h1 {
-      color: white;
-      text-align: center;
-    }
+     h1 {
+       color: white;
+       text-align: center;
+     }
 
-    p {
-      font-family: verdana;
-      font-size: 20px;
-    }
-    </style>
-    </head>
-    <body>
+     p {
+       font-family: verdana;
+       font-size: 20px;
+     }
+     </style>
+     </head>
+     <body>
 
-    <h1>My First CSS Example</h1>
-    <p>This is a paragraph.</p>
+     <h1>My First CSS Example</h1>
+     <p>This is a paragraph.</p>
 
-    </body>
-    </html>
-#+END_EXAMPLE
+     </body>
+     </html>
+ #+END_EXAMPLE
 
-[[file:images/css_element.png]]
+ [[file:images/css_element.png]]
 
-* CSS ID Selector
+** CSS ID Selector
 
-#+BEGIN_EXAMPLE
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <style>
-    #para1 {
-      text-align: center;
-      color: red;
-    }
-    </style>
-    </head>
-    <body>
+ #+BEGIN_EXAMPLE
+     <!DOCTYPE html>
+     <html>
+     <head>
+     <style>
+     #para1 {
+       text-align: center;
+       color: red;
+     }
+     </style>
+     </head>
+     <body>
 
-    <p id="para1">Hello World!</p>
-    <p>This paragraph is not affected by the style.</p>
+     <p id="para1">Hello World!</p>
+     <p>This paragraph is not affected by the style.</p>
 
-    </body>
-    </html>
-#+END_EXAMPLE
+     </body>
+     </html>
+ #+END_EXAMPLE
 
-[[file:images/css_id.png]]
+ [[file:images/css_id.png]]
 
-* CSS Class Selector
+** CSS Class Selector
 
-#+BEGIN_EXAMPLE
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <style>
-    .center {
-      text-align: center;
-      color: red;
-    }
-    </style>
-    </head>
-    <body>
+ #+BEGIN_EXAMPLE
+     <!DOCTYPE html>
+     <html>
+     <head>
+     <style>
+     .center {
+       text-align: center;
+       color: red;
+     }
+     </style>
+     </head>
+     <body>
 
-    <h1 class="center">Red and center-aligned heading</h1>
-    <p class="center">Red and center-aligned paragraph.</p> 
+     <h1 class="center">Red and center-aligned heading</h1>
+     <p class="center">Red and center-aligned paragraph.</p> 
 
-    </body>
-    </html>
-#+END_EXAMPLE
+     </body>
+     </html>
+ #+END_EXAMPLE
 
-[[file:images/css_class.png]]
+ [[file:images/css_class.png]]
+
+** Cara Insert CSS
+*** External CSS
+
+ *contoh.html*
+
+ #+BEGIN_EXAMPLE
+     <!DOCTYPE html>
+     <html>
+     <head>
+     <link rel="stylesheet" href="mystyle.css">
+     </head>
+     <body>
+
+     <h1>This is a heading</h1>
+     <p>This is a paragraph.</p>
+
+     </body>
+     </html> 
+ #+END_EXAMPLE
+
+ *mystyle.css*
+
+ #+BEGIN_EXAMPLE
+     body {
+       background-color: lightblue;
+     }
+
+     h1 {
+       color: navy;
+       margin-left: 20px;
+     }
+ #+END_EXAMPLE
+
+*** Internal CSS
+
+ #+BEGIN_EXAMPLE
+     <!DOCTYPE html>
+     <html>
+     <head>
+     <style>
+     body {
+       background-color: linen;
+     }
+
+     h1 {
+       color: maroon;
+       margin-left: 40px;
+     }
+     </style>
+     </head>
+     <body>
+
+     <h1>This is a heading</h1>
+     <p>This is a paragraph.</p>
+
+     </body>
+     </html> 
+ #+END_EXAMPLE
+
+*** Inline CSS
+
+ #+BEGIN_EXAMPLE
+     <!DOCTYPE html>
+     <html>
+     <body>
+
+     <h1 style="color:blue;text-align:center;">This is a heading</h1>
+     <p style="color:red;">This is a paragraph.</p>
+
+     </body>
+     </html>
+ #+END_EXAMPLE
 
 * Grid
 ** Basic
@@ -328,3 +341,18 @@ design, dan layout untuk perangkat dan ukuran layar yang berbeda.
    #+ATTR_HTML: :width 500px
   [[./images/css-defined-grid.png]]
    
+* Menu
+
+  #+ATTR_HTML: :width 500px
+  [[./images/css-js-menu.png]]
+  
+* Slideshow  
+
+  #+ATTR_HTML: :width 500px
+  [[./images/css-js-slideshow.png]]
+* Referensi
+
+- [[https://www.w3schools.com/css/default.asp][w3schools.com]]
+- [[https://developer.mozilla.org/en-US/docs/Learn/CSS][Learn to style HTML using CSS]]
+- [[https://www.developerdrive.com/how-to-create-a-css-grid-step-by-step/][Set up the grid container and the grid items]]
+  
