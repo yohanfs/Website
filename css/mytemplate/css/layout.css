@@ -1,0 +1,47 @@
+/*layout*/
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.bg {
+  background-color: aliceblue;
+}
+
+.container {
+  /*margin-top: 30px;*/
+  display: grid;
+  grid-template-areas:
+    "left menu right"
+    "left header right"
+    "left main right"
+    "left footer right";
+  grid-template-columns: 1fr 10fr 1fr;
+}
+
+.menu{
+  grid-area: menu;
+  background-color: blanchedalmond;
+}
+
+.header {
+  background: beige;
+  grid-area: header;
+  padding: 20px;
+}
+
+.main {
+  background: floralwhite;
+  grid-area: main;
+  padding: 20px;
+}
+
+.footer {
+  background: beige;
+  grid-area: footer;
+  padding: 20px;
+}

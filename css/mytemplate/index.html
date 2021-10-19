@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Yohan Sidik</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="./css/social-media.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/slideshow.css" />
+  </head>
+
+  <body class="bg">
+    <div class="container">
+
+      <menu class="menu">
+        <div class="topnav" id="myTopnav">
+          <a href="#home" >Home</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        </div>
+     </menu>
+
+      <header class="header"> 
+        <h1 class="center">Header</h1>
+      </header>
+
+      <main class="main">
+        <h1 class="center">Main</h1>
+        <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="./images/img1.jpeg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="./images/img2.jpeg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="./images/img3.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="./images/img4.jpg" style="width:100%">
+          <div class="text">Caption Four</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+        </div>
+
+      </main>
+
+      <footer class="footer">
+        <div style="text-align: center">
+          <a
+            href="https://web.facebook.com/yohanfajarsidik"
+            class="fa fa-facebook"
+          ></a>
+          <a
+            href="https://twitter.com/yohanfajarsidik"
+            class="fa fa-twitter"
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/yohan-fajar-sidik-84155033/"
+            class="fa fa-linkedin"
+          ></a>
+          <a
+            href="https://www.youtube.com/user/fajar340"
+            class="fa fa-youtube"
+          ></a>
+          <a
+            href="https://www.instagram.com/yohanfajarsidik/"
+            class="fa fa-instagram"
+          ></a>
+        </div>
+      </footer>
+    </div>
+
+  <!--Scripts-->
+
+  <script src="./js/nav.js"></script>
+  <script src="./js/slideshow.js"></script>
+  
+  </body>
+</html>
